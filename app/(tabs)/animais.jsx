@@ -34,6 +34,7 @@ const Adocao = () => {
         </View>
       </View>
       <View style={styles.descricao_animais}></View>
+      <View style={styles.espaco}></View>
       <View style={styles.caixa}>
         <View style={styles.alinhamento}>
           <Image 
