@@ -1,15 +1,20 @@
 import React from 'react';
-import { View, Text, ScrollView } from 'react-native';
+import { View, Text, ScrollView, Image } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import styles from '../style/style_suporte';
+import dow1 from '@/assets/images/d1.png'
 
 const Suporte = () => {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Suporte</Text>
+        <Image
+        source={dow1}
+        style={styles.perfil}
+        href='/cadastro'
+      />
       </View>
-
       <View style={styles.content}>
         <Text style={styles.subtitle}>Contato</Text>
         <Text style={styles.info}>

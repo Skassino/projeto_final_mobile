@@ -8,6 +8,15 @@ import styles from '../style/style_animais';
 const Adocao = () => {
   return (
     <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Animais</Text>
+        <Image
+        source={dow1}
+        style={styles.perfil}
+        href='/cadastro'
+        />
+      </View>
+      <View style={styles.espaco}></View>
       <View style={styles.caixa}>
         <View style={styles.alinhamento}>
           <Image 
@@ -15,7 +24,7 @@ const Adocao = () => {
             style={styles.img_Perfil}
           />
           <View>
-            <Text style={styles.nome_animais}>REX 🚀</Text>
+            <Text style={styles.nome_animais} href='/cadastro'>REX 🚀</Text>
             <Text style={styles.descricao_animais}>Eu sou um cachorro muito carinhoso.</Text>
           </View>
         </View>
@@ -28,7 +37,7 @@ const Adocao = () => {
             style={styles.img_Perfil}
           />
           <View>
-            <Text style={styles.nome_animais}>Mingual 🍼</Text>
+            <Text style={styles.nome_animais} href='/cadastro'>Mingual 🍼</Text>
             <Text style={styles.descricao_animais}>Eu sou um gato muito dorminhoco.</Text>
           </View>
         </View>
@@ -42,7 +51,7 @@ const Adocao = () => {
             style={styles.img_Perfil}
           />
           <View>
-            <Text style={styles.nome_animais}>BUFUS 😎🥶🤠🧐</Text>
+            <Text style={styles.nome_animais} href='/cadastro'>BUFUS 😎🥶🤠🧐</Text>
             <Text style={styles.descricao_animais}>BUFUS BUFUS BUFUS BUFUS BUFUS</Text>
             <Text style={styles.descricao_animais}>BUFUS BUFUS BUFUS BUFUS BUFUS </Text>
             <Text style={styles.descricao_animais}>BUFUS BUFUS BUFUS BUFUS BUFUS </Text>

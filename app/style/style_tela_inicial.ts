@@ -29,37 +29,34 @@ const styles = StyleSheet.create({
     right: 100,
     top: 10
 },
-  content: {
-    padding: 20,
-  },
-  subtitle: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 5,
-  },
-  info: {
-    fontSize: 16,
-    marginBottom: 10,
-  },
-  contactInfo: {
-    fontSize: 16,
-    color: '#666',
-    marginBottom: 5,
-  },
-  button: {
-    backgroundColor: '#E5374B',
-    padding: 10,
-    borderRadius: 5,
-    marginTop: 20,
-    shadowColor: 'black',
-    shadowOffset: { width: 0, height: 5 },
-    shadowOpacity: 0.2,
-    shadowRadius: 5,
-  },
-  buttonText: {
-    fontSize: 16,
-    color: '#fff',
-  },
+portalContainer: {
+  marginTop: 30,
+  backgroundColor: '#f9f9f9',
+  padding: 16,
+  borderRadius: 12,
+  alignItems: 'center',
+  shadowColor: '#000',
+  shadowOpacity: 0.08,
+  shadowRadius: 8,
+  elevation: 3,
+},
+portalTitulo: {
+  fontSize: 22,
+  fontWeight: 'bold',
+  marginBottom: 12,
+  textAlign: 'center',
+},
+portalImagem: {
+  width: '100%',
+  height: 180,
+  borderRadius: 8,
+  marginBottom: 12,
+},
+portalTexto: {
+  fontSize: 16,
+  color: '#444',
+  textAlign: 'justify',
+},
 });
 
 export default styles;

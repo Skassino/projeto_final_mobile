@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Image, Text, TouchableOpacity} from 'react-native';
+import { View, Image, Text} from 'react-native';
 import logoPreto from '@/assets/images/logo-preto.png';
-import styles from '../style/style_index';
+import styles from './style/style_index';
+import { Link } from 'expo-router'
 
 const Index = ({ navigation }) => {
   return (
@@ -13,9 +14,7 @@ const Index = ({ navigation }) => {
       <Text style={styles.description}>
         O Centro de Controle de Zoonoses, CCZ, de Taboão da Serra é responsável pela realização da vigilância e controle de doenças que podem ser transmitidas dos animais para a população humana, e pelo controle das populações animais existentes na cidade.
       </Text>
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('cadastro')}>
-        <Text style={styles.buttonText}>Comece aqui</Text>
-      </TouchableOpacity>
+      <Link href="/(tabs)/tela_inicial" style={{padding: 20,paddingTop: 40,paddingBottom: 40,fontSize: 50, fontWeight: 'bold', color: 'white', textAlign: "center", backgroundColor: "rgba(0,0,0, 0.5)", borderRadius: 40}}>Comece aqui</Link>
     </View>
   );
 };

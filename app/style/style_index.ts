@@ -35,24 +35,25 @@ const styles = StyleSheet.create({
     top: 40,
   },
   description: {
-    paddingTop: 40,
+    paddingTop: 50,
     fontSize: 22,
     color: 'black', 
     textAlign: 'center',
     marginBottom: 30,
     fontWeight: '500',
+    backgroundColor: "rgba(255, 255, 255, 0.4)",
+    paddingBottom: 50,
+    borderRadius: 40
   },
   button: {
     backgroundColor: 'white',
     paddingVertical: 15,
     paddingHorizontal: 40,
-    borderRadius: 10,
-    shadowColor: 'black',
-    shadowOffset: { width: 0, height: 5 },
-    shadowOpacity: 0.2,
-    shadowRadius: 5,
+    borderRadius: 90,
     position: 'absolute',
-    bottom: 80
+    bottom: 80,
+    width: 220,
+    height: 100
   },
   buttonText: {
     fontSize: 20,

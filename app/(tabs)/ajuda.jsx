@@ -1,10 +1,19 @@
 import React from 'react';
-import { View, Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Image, Text, TouchableOpacity} from 'react-native';
 import styles from '../style/style_ajuda';
+import dow1 from '@/assets/images/d1.png'
 
 export default function TelaAdocao() {
   return (
     <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title1}>Ajuda</Text>
+        <Image
+        source={dow1}
+        style={styles.perfil}
+        href='/cadastro'
+        />
+      </View>
       <Image
         source={require('@/assets/images/images-_1_.png')} // Altere para a sua imagem
         style={styles.backgroundImage}

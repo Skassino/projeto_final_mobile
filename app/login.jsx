@@ -36,7 +36,7 @@ export default function LoginScreen() {
         onChangeText={setSenha}
         secureTextEntry
       />
-
+      <Text href='/cadastro'>Cadastro</Text>
       <TouchableOpacity style={styles.button} onPress={handleLogin}>
         <Text style={styles.buttonText}>Entrar</Text>
       </TouchableOpacity>

@@ -1,7 +1,7 @@
 // CadastroScreen.js
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
-import styles from '../style/style_cadastro';
+import styles from './style/style_cadastro';
 
 export default function CadastroScreen() {
   const [nome, setNome] = useState('');
@@ -18,7 +18,7 @@ export default function CadastroScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Cadastro</Text>
-
+    
       <TextInput
         style={styles.input}
         placeholder="Nome completo"
@@ -58,7 +58,7 @@ export default function CadastroScreen() {
         keyboardType="email-address"
         autoCapitalize="none"
       />
-
+      <Text href='/login'>Login</Text>
       <TouchableOpacity style={styles.button} onPress={handleSubmit}>
         <Text style={styles.buttonText}>Cadastrar</Text>
       </TouchableOpacity>
