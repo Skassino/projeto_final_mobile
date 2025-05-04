@@ -31,44 +31,31 @@ const styles = StyleSheet.create({
         right: 100,
         top: 10
     },
-    caixa:{
-        backgroundColor: '#f0f0f0', // Cor de fundo da caixa
-        padding: 22,
-        borderRadius: 10, // Arredondamento das bordas da caixa
-        shadowColor: '#000',
-        shadowOffset: {
-          width: 0,
-          height: 2,
-        },
-        shadowOpacity: 0.25,
-        shadowRadius: 3.84,
-        elevation: 5,
-    },
-
-    alinhamento:{
-        flexDirection: 'row',
-        alignItems: 'center',
-    },
-
-    img_Perfil:{
-        width: 80, // Tamanho menor para a imagem
-        height: 80,
-        borderRadius: 40, // Arredondamento para imagem circular
-        marginRight: 10, // Espaçamento entre a imagem e o texto
-    },
-    nome_animais:{
+    caixaTitulo: {
+        flexDirection: 'row',      // Imagem e texto lado a lado
+        alignItems: 'center',      // Centraliza verticalmente
+        backgroundColor: '#fff',   // Cor de fundo da caixa
+        padding: 16,
+        marginTop: 24,
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 4,
+        elevation: 3,              // Sombra no Android
+      },
+      imagemTitulo: {
+        width: 60,
+        height: 60,
+        marginRight: 12,
+      },
+      textoTitulo: {
         fontSize: 18,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        color: '#333',
+      },
+      espaco:{
+        padding: 14
     },
-    descricao_animais:{
-        fontSize: 16
-    },
-    espaco:{
-        padding: 40
-    },
-
-
-
 });
 
 export default styles;

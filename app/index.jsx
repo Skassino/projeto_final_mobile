@@ -14,7 +14,8 @@ const Index = ({ navigation }) => {
       <Text style={styles.description}>
         O Centro de Controle de Zoonoses, CCZ, de Taboão da Serra é responsável pela realização da vigilância e controle de doenças que podem ser transmitidas dos animais para a população humana, e pelo controle das populações animais existentes na cidade.
       </Text>
-      <Link href="/(tabs)/tela_inicial" style={{padding: 20,paddingTop: 40,paddingBottom: 40,fontSize: 50, fontWeight: 'bold', color: 'white', textAlign: "center", backgroundColor: "rgba(0,0,0, 0.5)", borderRadius: 40}}>Comece aqui</Link>
+      <View style={styles.espaco}></View>
+      <Link href="/(tabs)/tela_inicial" style={{padding: 20,paddingTop: 40,paddingBottom: 40,fontSize: 50, fontWeight: 'bold', color: 'white', textAlign: "center", backgroundColor: "rgba(0,0,0, 0.7)", borderRadius: 40}}>Comece aqui</Link>
     </View>
   );
 };

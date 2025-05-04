@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 30,
     fontWeight: '500',
-    backgroundColor: "rgba(255, 255, 255, 0.4)",
+    backgroundColor: "white",
     paddingBottom: 50,
     borderRadius: 40
   },
@@ -60,6 +60,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#E5374B', 
   },
+  espaco:{
+    padding: 14
+},
+
 });
 
 export default styles;

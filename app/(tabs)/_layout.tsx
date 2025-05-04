@@ -38,14 +38,14 @@ export default function TabLayout() {
       <Tabs.Screen
         name="animais"
         options={{
-          title: 'Pets',
+          title: 'Servicos',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="animais.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="ajuda"
         options={{
-          title: 'Adoção',
+          title: 'Ajuda',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="monitorheart.fill" color={color} />,
         }}
       />
