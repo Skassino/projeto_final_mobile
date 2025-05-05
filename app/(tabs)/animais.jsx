@@ -19,7 +19,7 @@ const Adocao = () => {
         href='/cadastro'
         />
       </View>
-    <View style={styles.caixaTitulo} href = "/cadastro">
+    <View style={styles.caixaTitulo} href = "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?conteudo=954">
     <Image
           source={vacina}
           style={styles.imagemTitulo}
@@ -27,7 +27,7 @@ const Adocao = () => {
     <Text style={styles.textoTitulo}>Informações de Vacinação</Text>
     </View>
     <View style={styles.espaco}></View>
-    <View style={styles.caixaTitulo} href = "/cadastro">
+    <View style={styles.caixaTitulo} href = "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?conteudo=956">
     <Image
           source={contrato}
           style={styles.imagemTitulo}
@@ -35,7 +35,7 @@ const Adocao = () => {
     <Text style={styles.textoTitulo}>Informações sobre Enviar animais para identificação</Text>
     </View>
     <View style={styles.espaco}></View>
-    <View style={styles.caixaTitulo} href = "/cadastro">
+    <View style={styles.caixaTitulo} href = "/denuncia">
     <Image
           source={excluir}
           style={styles.imagemTitulo}
@@ -43,7 +43,7 @@ const Adocao = () => {
     <Text style={styles.textoTitulo}>Denunciar Local</Text>
     </View>
     <View style={styles.espaco}></View>
-    <View style={styles.caixaTitulo} href = "/cadastro">
+    <View style={styles.caixaTitulo} href = "/avaliacao">
     <Image
           source={bate}
           style={styles.imagemTitulo}
@@ -51,7 +51,7 @@ const Adocao = () => {
     <Text style={styles.textoTitulo}>Solicitar Avaliação</Text>
     </View>
     <View style={styles.espaco}></View>
-    <View style={styles.caixaTitulo} href = "/cadastro">
+    <View style={styles.caixaTitulo} href = "https://sp156.prefeitura.sp.gov.br/portal/servicos/informacao?servico=806">
     <Image
           source={ponto}
           style={styles.imagemTitulo}

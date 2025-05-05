@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, Image, Text, ImageBackground, Dimensions, ScrollView, ActivityIndicator } from 'react-native';
+import { View, Image, Text, ImageBackground, ScrollView, ActivityIndicator } from 'react-native';
 import styles from '../style/style_ajuda';
 import dow1 from '@/assets/images/d1.png';
 
