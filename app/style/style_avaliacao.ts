@@ -28,7 +28,28 @@ const styles = StyleSheet.create({
     position: 'absolute',
     right: 100,
     top: 10
-}
+},fotosContainer: {
+  flexDirection: 'row',
+  flexWrap: 'wrap',       // permite quebra em múltiplas linhas
+  justifyContent: 'space-between', // espaço entre colunas
+  marginTop: 30,
+},
+fotoItem: {
+  width: '48%',            // cada item ocupa metade da largura menos margem
+  alignItems: 'center',
+  marginBottom: 20,
+},
+perfil2: {
+  width: 80,
+  height: 80,
+  borderRadius: 40,
+  marginBottom: 8,
+},
+nomeFoto: {
+  fontSize: 14,
+  color: '#333',
+  textAlign: 'center',
+},
 });
 
 export default styles;
